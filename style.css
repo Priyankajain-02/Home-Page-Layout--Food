@@ -1,0 +1,532 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+body {
+  font-family: 'Alfa Slab One', cursive;
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+   color: #2e2e2e;
+
+}
+header{
+  background-color: #ffc657;
+  
+}
+
+
+.map-aea iframe{width: 100%;}
+.top-bar{
+  display: flex;
+  align-items: center;
+  padding: 30px 0 10px;
+  justify-content: center;
+  
+}
+.logo img{
+  width: 20%;
+}
+.delivery{
+  display: flex;
+  
+}
+.delivery h6{
+  font-size: 15px;
+  color: #3d2514;
+margin-left: 8px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+
+}
+.delivery img{
+  width: 10%;
+}
+.menu-bar ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.menu-bar li 
+{
+  list-style-type: none;
+}
+.menu-bar li a{
+text-decoration: none;
+color: #3d2514;
+margin: 0 20px;
+text-transform: uppercase;
+font-size: 15px;
+font-weight: 400;
+font-family: 'Bebas Neue', cursive;
+letter-spacing: 3px;
+
+}
+.menu-bar li a:hover{
+  color: #bf2222;
+}
+.menu-bar li .active{
+  color: #bf2222;
+}
+
+.sub-title{
+  text-transform: uppercase;
+  color: #3d2514;
+  
+}
+.sub-title h4{
+  font-size: 20px;
+  font-family: 'Bebas Neue', cursive;
+  border: 2px dotted #3d2514;
+  padding: 10px;
+  display: inline-block;
+}
+.sub-title h1{
+  font-size: 90px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 4px 4px #fee8bc;
+  margin-bottom: 0;
+}
+.sub-title h3{
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 4px 4px #fee8bc;
+  letter-spacing: 2px;
+}
+.sub-title{
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding:70px 0px;
+}
+.sub-title img{
+  max-width:80%;
+}
+.price{
+  border-radius: 50%;
+  background-color: #bf2222;
+  padding: 20px 27px;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  bottom: 0;
+  right: 57%;
+  
+}
+.price::before{
+  content: '..';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  margin: 0 auto;
+  left: 0;
+  height: 85px;
+  width: 85px;
+  border: 2px dotted #fff;
+  border-radius: 50%;
+  padding: 0px;
+  color: #bf2222;
+
+}
+.price span{
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: 'Bebas Neue', cursive;
+ 
+  
+  letter-spacing: 2px;
+  
+}
+.food{
+  position: relative;
+    text-align: end;
+}
+.burger-types {
+  margin: 30px 0;
+}
+.popular-burger img{
+  max-width: 100%;
+}
+.popular-burger {
+  position: relative;
+}
+.text-image{
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+}
+.text-image h5{
+  font-size: 20px;
+  margin: 0;
+}
+.text-image h2{
+  margin: 0;
+  font-size: 40px;
+  
+}
+.taste-burger img{
+  width: 100%;
+}
+.taste-burger{
+  position: relative;
+}
+.text-image-second{
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+  
+}
+.taste-burger {
+  padding-bottom: 45px;
+}
+.text-image-second h2{
+  margin: 0;
+  font-size: 40px;
+}
+.text-image-second h5{
+  font-size: 20px;
+  margin: 0;
+}
+.btn-burger {
+  text-transform: uppercase;
+  color: #3d2514;
+  background-color: #ffc045;
+ 
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: 'Bebas Neue', cursive;
+ 
+  border-radius: 0;
+}
+.heading{
+  text-align: center;
+}
+.heading h2{
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #3d2514;
+  margin-top: 25px;
+}
+.heading p{
+  line-height: 25px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  color: #3d2514;
+}
+.burger-list{
+  display: flex;
+  margin-top: 30px;
+}
+.first-burger img{
+  width: 100%;
+  margin-bottom: 5px;
+}
+.first-burger h4{
+  font-family: 'Bebas Neue', cursive;
+  color: #3d2514;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+
+}
+.first-burger p{
+  line-height: 20px;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  color: #3d2514;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.btn-order {
+  background-color: #bf2222;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 0;
+ align-items: center;
+  font-size: 14px;
+}
+
+.first-burger {
+  text-align: center;
+}
+
+.events {
+  margin: 100px 0;
+}
+.upcoming-events h5{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
+  margin: 0;
+}
+.upcoming-events h3{
+  color: #3d2514;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.upcoming-events p{
+  line-height: 25px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.discover  {
+  box-shadow: #ddd 6px 6px 8px 3px;
+  padding: 40px 30px 10px;
+}
+.events-image img{
+  width: 100%;
+}
+.circle{
+  display: flex;
+  margin-top: 50px;
+}
+.carousel-indicators li{
+  background-color: #ececec;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.carousel-indicators .active{
+  background-color: #ffc045;
+  cursor: pointer;
+}
+.heading-book {
+  text-align: center;
+}
+.heading-book h5{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
+  
+}
+.heading-book h2{
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #3d2514;
+  margin-top: 25px;
+  margin: 0;
+}
+
+.reservation {
+  position: relative;
+}
+.newsletter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 150px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.reservation img{
+  position: absolute;
+}
+img.bottle-img {
+  left: 8%;
+  top: 26%;
+  width: 14%;
+}
+img.burger-img {
+  left: 0;
+  top: -17%;
+  width: 15%;
+}
+img.plate-img {
+  right: 0;
+  width: 20%;
+  bottom: -50%;
+}
+.btn-table{
+  background-color: #bf2222;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 50px;
+  width: 100%;
+ align-items: center;
+  font-size: 18px;
+}
+.btn:hover{
+  background-color: #ffc045;
+  color: #bf2222;
+
+}
+.newsletter .form-control{
+  padding: 12px 15px;
+}
+.footer{
+  margin-top: 120px;
+  background-image: url(../images/footer.png);
+  background-size: cover;
+  padding-bottom: 20px;
+}
+.footer-details {
+ padding:  50px 0;
+ display: flex;
+ justify-content: space-between;
+}
+.footer-details p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+}
+.footer-location {
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+  
+}
+.footer-logo{
+  padding: 50px 0;
+}
+.footer-location i {
+  font-size: 25px;
+  margin: 0 30px;
+  cursor: pointer;
+}
+.footer-location span {
+  font-size: 22px;
+ 
+}
+.footer-copyright p{
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.footer-bootom {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+.footer-links {
+  text-align: end;
+}
+.footer-links a i{
+  background-color: #fff;
+  color: #000;
+  border-radius: 50%;
+padding: 8px 10px;
+font-size: 20px;
+  margin: 0 5px;
+}
+.footer-links a .fa-instagram:hover{
+  color: #fff;
+  background-color: #f71f87;
+}
+.footer-links a .fa-facebook-f:hover{
+  color: #fff;
+  background-color: #475993;
+}
+.footer-links a .fa-twitter:hover{
+  color: #fff;
+  background-color: #55acee;
+}
+.footer-links a .fa-whatsapp:hover{
+  color: #fff;
+  background-color: rgb(48 234 102);
+}
+
+.menu-toggle, .closebtn {
+  display: none;
+}
+@media screen and (max-width:1000px) {
+  .footer-details{
+    display: block;
+  }
+  .footer-logo img{
+  width: 90%;
+  }
+  .footer-bootom{
+    display: block;
+  }
+  .footer-links{
+    display: block;
+    text-align: left;
+  }
+  .sub-title, .food{
+    display: block;
+    padding: 10px 0;
+    text-align: left;
+  }
+  .footer{
+    margin-top: 0;
+  }
+  .sub-title h1{
+    font-size: 50px ;
+  }
+  .burger-list{
+    display: block;
+  }
+  .first-burger:nth-child(even){
+    margin-top: 30px;
+  }
+  .menu-bar ul{
+    display: inline-block;
+  }
+  .top-bar, .delivery{
+    display: block;
+  }
+}
+
+
+@media screen and (max-width:1000px) {
+  .reservation img{
+    display: none;
+    
+  }
+}
+
+
+@media screen and (max-width:867px){
+  
+  
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav li a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.menu-toggle{
+  display: block;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  display: block;
+}
+
+
+}
